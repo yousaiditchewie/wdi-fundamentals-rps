@@ -34,7 +34,7 @@ function getComputerMove(move) {
         if ((move === null) || (move === 'undefined')){// If a `move` has a value, your expression should evaluate to that value.
     return 'randomPlay()';
     }// However, if `move` is not specified / is null, your expression should equal `randomPlay()`.
-    return move; /* Your Expression */;
+    else return move; /* Your Expression */;
 }
 
 function getWinner(playerMove,computerMove) {
